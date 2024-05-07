@@ -5,25 +5,49 @@ using UnityEngine.InputSystem;
 
 public class PlayerInput : MonoBehaviour
 {
-    public bool disabled = false;
+    // public bool disabled = false;
 
     private Rigidbody2D rb;
-
     bool isGrounded = false;
+
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpHeight = 5f;
 
+    // private float movement = 0f;
     private Vector2 direction = Vector2.zero;
+
+    private bool facingRight = true;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //collect the player's Rigidbody2D
+        animator = GetComponent<Animator>();
     }
 
     void OnMove(InputValue value)
     {
         direction = value.Get<Vector2>();
         Debug.Log(direction);
+
+    // sprite flip
+        if (direction.x < 0 && facingRight == true)
+        {
+            Flip();
+        }
+
+        if (direction.x > 0 && facingRight == false)
+        {
+            Flip();
+        }
+    }
+
+    void Flip(){
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
     }
 
 // void OnMove(InputValue value)
@@ -45,6 +69,8 @@ public class PlayerInput : MonoBehaviour
     void Update()
     {
         Move(direction.x, direction.y);
+        animator.SetFloat("Speed", Mathf.Abs(speed*direction.x)); 
+
     }
 
     private void Move(float x, float y) // Move on X and Y
@@ -64,6 +90,7 @@ public class PlayerInput : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         Debug.Log(rb.velocity);
+        animator.SetBool("isJumping", true);
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -78,10 +105,7 @@ public class PlayerInput : MonoBehaviour
     {
         isGrounded = true;
         Debug.Log("Player is grounded");
-    }
-    else
-    {
-        isGrounded = false;
+        animator.SetBool("isJumping", false);
     }
 }
 
