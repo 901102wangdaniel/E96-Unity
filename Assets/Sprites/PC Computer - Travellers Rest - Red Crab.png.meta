@@ -1,0 +1,1258 @@
+fileFormatVersion: 2
+guid: 321463197d8271d418493d2e03a423da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 351
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f5c6715399e43438dcb35e73ab97cf
+      internalID: 450662020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 351
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb9a1a55ad82e242b5555b007eeb202
+      internalID: -523233825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 351
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8194758186bf14490a6eb7709ac718
+      internalID: -702821560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 350
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ada0548d9794684f96660db3d9e5359
+      internalID: 188352497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 349
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413cebc5530bb544291f0df8c65a11c6
+      internalID: 1745740111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 350
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4900ad5c6a7e44a355b399eae3397
+      internalID: -1413514358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 353
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d98eb6be0a00624eb2eed9566ada419
+      internalID: 1497678654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 352
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaa8358cc6f5274aa2c328bf09364b3
+      internalID: 1590497862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 297
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf20283dbaa50b49893e2163cd13a71
+      internalID: 240599459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 298
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8c356f1012888499c9d4f1c916e2aa
+      internalID: 678754396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 299
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80576228c9d0aa4399b5e7eb7e2e123
+      internalID: -388809882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 298
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2026013c061454a928774a428ebcbd
+      internalID: -1641148571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 297
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ccc0b44d6c7a34fb6417dbe1e44b41
+      internalID: 1505504328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 298
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e058d87bfc768444902f076b0a250b0
+      internalID: 1805990735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 297
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d83fb5e3de5d8f44baac0467febc5ce
+      internalID: -713831964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 297
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da3c499921ea114a824b84ceb93a567
+      internalID: -108835683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 243
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30325cf2f6b585c4f98f1afa9e753050
+      internalID: 687101474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 243
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6402d2aca22c904b86a5584f95a64e9
+      internalID: 1271005923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 243
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60c00a9fc53d84480316608745ece3
+      internalID: 323889171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 243
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc78ca215eb404844a02705611d180e3
+      internalID: 2038160348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 242
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f569bb981fd22409d9acb21fa7e643
+      internalID: 1185006102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 241
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f310a1f1b0c4fb49962f53c4c7120ab
+      internalID: -426131651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10fcc641b2508641a2cdcf26be929e5
+      internalID: -1373009155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_23
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 241
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bed9fdb810a4d44bab96034ecda74c
+      internalID: -261411752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 188
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7610f9fba010d46a005cf93eece5e1
+      internalID: 112490746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a544ceaa33b9f1f47b233c23ff157694
+      internalID: -2014475603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 186
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6d86281f4d7bd40ad5f2ab2a0bffc9
+      internalID: 286772503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec63744fbe17b04d8594555f9e8349b
+      internalID: 1373797977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_28
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 190
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b724086c635b4fbe295b63c420bc2
+      internalID: 1607869717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 185
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0fc9fb1baa33249beeb111ee3b9d4c
+      internalID: -519827189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_30
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 187
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ce64e79216544384ccbdfc6e638ad
+      internalID: -2057848319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 188
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc805b2992240d14489f81c10517184e
+      internalID: -227132255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 134
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc4f0bc5f8ad8b419e14b0e503033d7
+      internalID: 749805077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 134
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e824aa8d081b945ab81815c0ab1b09
+      internalID: 1683197061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_34
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 134
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272821db4a3a174aac11142a290d279
+      internalID: -1605043298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 134
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69027598e15382640a8455dd967b38c6
+      internalID: 1360194505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_36
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 134
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec97544b0fd17ac4a8bd2341f5e2d27f
+      internalID: -270900693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_37
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 134
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4714b781441094db4205aa3ffeebb2
+      internalID: 890633765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_38
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 134
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582c262fede0a9f4496c0919c40a011f
+      internalID: -560274281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_39
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 134
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f54ed00c1c24f44856efe59d59d041
+      internalID: 1469225914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b904a145a2efc544ab92b7826dc8594b
+      internalID: -2103650279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81642cf0322a91149ad6224d2b78638d
+      internalID: 935764556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 78
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c07fe36824c98498cf1bc493b8757d
+      internalID: 2079593415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 79
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fdde7efccc12d47a6064728b3ed0ec
+      internalID: -712113892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edf1be4021b12b47815f5b0b4951acf
+      internalID: -1578133559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_45
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 78
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb13a613a92a314e9f9d7f13fd63177
+      internalID: 1780785103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 78
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e381d193631cc35479f05915a025eefb
+      internalID: -1093203439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_47
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 86
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7522ee1290c78d4a9cd18afdc651cc3
+      internalID: 625435947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_48
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 78
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b6d4f70296b4d4b9e28299e198251b
+      internalID: -1025222968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_49
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 86
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be6b3dd69d620f40b05b573c65f176d
+      internalID: -1813870657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 25
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c6f49e37332924bb4e02b35a02f55e
+      internalID: 1322178540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Travellers Rest - Red Crab_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 23
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c53909de08be489c81affbe3da94b
+      internalID: -859471505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Travellers Rest - Red Crab_0: 450662020
+      PC Computer - Travellers Rest - Red Crab_1: -523233825
+      PC Computer - Travellers Rest - Red Crab_10: -388809882
+      PC Computer - Travellers Rest - Red Crab_11: -1641148571
+      PC Computer - Travellers Rest - Red Crab_12: 1505504328
+      PC Computer - Travellers Rest - Red Crab_13: 1805990735
+      PC Computer - Travellers Rest - Red Crab_14: -713831964
+      PC Computer - Travellers Rest - Red Crab_15: -108835683
+      PC Computer - Travellers Rest - Red Crab_16: 687101474
+      PC Computer - Travellers Rest - Red Crab_17: 1271005923
+      PC Computer - Travellers Rest - Red Crab_18: 323889171
+      PC Computer - Travellers Rest - Red Crab_19: 2038160348
+      PC Computer - Travellers Rest - Red Crab_2: -702821560
+      PC Computer - Travellers Rest - Red Crab_20: 1185006102
+      PC Computer - Travellers Rest - Red Crab_21: -426131651
+      PC Computer - Travellers Rest - Red Crab_22: -1373009155
+      PC Computer - Travellers Rest - Red Crab_23: -261411752
+      PC Computer - Travellers Rest - Red Crab_24: 112490746
+      PC Computer - Travellers Rest - Red Crab_25: -2014475603
+      PC Computer - Travellers Rest - Red Crab_26: 286772503
+      PC Computer - Travellers Rest - Red Crab_27: 1373797977
+      PC Computer - Travellers Rest - Red Crab_28: 1607869717
+      PC Computer - Travellers Rest - Red Crab_29: -519827189
+      PC Computer - Travellers Rest - Red Crab_3: 188352497
+      PC Computer - Travellers Rest - Red Crab_30: -2057848319
+      PC Computer - Travellers Rest - Red Crab_31: -227132255
+      PC Computer - Travellers Rest - Red Crab_32: 749805077
+      PC Computer - Travellers Rest - Red Crab_33: 1683197061
+      PC Computer - Travellers Rest - Red Crab_34: -1605043298
+      PC Computer - Travellers Rest - Red Crab_35: 1360194505
+      PC Computer - Travellers Rest - Red Crab_36: -270900693
+      PC Computer - Travellers Rest - Red Crab_37: 890633765
+      PC Computer - Travellers Rest - Red Crab_38: -560274281
+      PC Computer - Travellers Rest - Red Crab_39: 1469225914
+      PC Computer - Travellers Rest - Red Crab_4: 1745740111
+      PC Computer - Travellers Rest - Red Crab_40: -2103650279
+      PC Computer - Travellers Rest - Red Crab_41: 935764556
+      PC Computer - Travellers Rest - Red Crab_42: 2079593415
+      PC Computer - Travellers Rest - Red Crab_43: -712113892
+      PC Computer - Travellers Rest - Red Crab_44: -1578133559
+      PC Computer - Travellers Rest - Red Crab_45: 1780785103
+      PC Computer - Travellers Rest - Red Crab_46: -1093203439
+      PC Computer - Travellers Rest - Red Crab_47: 625435947
+      PC Computer - Travellers Rest - Red Crab_48: -1025222968
+      PC Computer - Travellers Rest - Red Crab_49: -1813870657
+      PC Computer - Travellers Rest - Red Crab_5: -1413514358
+      PC Computer - Travellers Rest - Red Crab_50: 1322178540
+      PC Computer - Travellers Rest - Red Crab_51: -859471505
+      PC Computer - Travellers Rest - Red Crab_6: 1497678654
+      PC Computer - Travellers Rest - Red Crab_7: 1590497862
+      PC Computer - Travellers Rest - Red Crab_8: 240599459
+      PC Computer - Travellers Rest - Red Crab_9: 678754396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
