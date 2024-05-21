@@ -28,7 +28,7 @@ public class PlayerInput : MonoBehaviour
     void OnMove(InputValue value)
     {
         direction = value.Get<Vector2>();
-        Debug.Log(direction);
+        // Debug.Log(direction);
 
     // sprite flip
         if (direction.x < 0 && facingRight == true)
@@ -89,7 +89,7 @@ public class PlayerInput : MonoBehaviour
     private void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-        Debug.Log(rb.velocity);
+        // Debug.Log(rb.velocity);
         animator.SetBool("isJumping", true);
     }
 
@@ -104,7 +104,7 @@ public class PlayerInput : MonoBehaviour
     if (collision.contacts[0].normal.y > 0.5)
     {
         isGrounded = true;
-        Debug.Log("Player is grounded");
+        // Debug.Log("Player is grounded");
         animator.SetBool("isJumping", false);
     }
 }
