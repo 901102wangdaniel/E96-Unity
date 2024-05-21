@@ -26,7 +26,7 @@ public class Collide : MonoBehaviour
         if (collision.gameObject.name == "Wall")
         {
             Debug.Log("Hit: " + collision.transform.name);
-            Thread.Sleep(2000);
+            Thread.Sleep(100);
             Destroy(this.gameObject);
         }
     }
