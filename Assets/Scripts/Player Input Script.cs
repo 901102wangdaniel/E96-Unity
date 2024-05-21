@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
 
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpHeight = 5f;
-    [SerializeField] private float crabSpeed = 5f;
+    [SerializeField] public float crabSpeed = 5f;
 
     // private float movement = 0f;
     private float direction = 0f;
@@ -151,7 +151,10 @@ public class PlayerInput : MonoBehaviour
 
 
     }
-        
+
+
+
+
 
 
 }
