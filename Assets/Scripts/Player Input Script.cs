@@ -51,15 +51,6 @@ public class PlayerInput : MonoBehaviour
         facingRight = !facingRight;
     }
 
-    void Flip()
-    {
-        Vector3 currentScale = gameObject.transform.localScale;
-        currentScale.x *= -1;
-        gameObject.transform.localScale = currentScale;
-
-        facingRight = !facingRight;
-    }
-
 
     void Update()
     {
@@ -99,11 +90,11 @@ public class PlayerInput : MonoBehaviour
         // Debug.Log("Player is grounded");
         animator.SetBool("isJumping", false);
     }
-}
 
-            //animator.SetBool("isJumping", false);
-        }
-    }
+
+    //         //animator.SetBool("isJumping", false);
+    //     }
+    // }
 
     void OnSpawn()
     {
@@ -143,10 +134,5 @@ public class PlayerInput : MonoBehaviour
 
 
     }
-
-
-
-
-
 
 }

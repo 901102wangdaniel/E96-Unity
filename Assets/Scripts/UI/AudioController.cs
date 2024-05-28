@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class AudioController : MonoBehaviour
 {
     public AudioSource bgmSource; // Reference to the AudioSource component for background music
 
