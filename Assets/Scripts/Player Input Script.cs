@@ -9,6 +9,9 @@ public class PlayerInput : MonoBehaviour
 
     private Rigidbody2D rb;
     bool isGrounded = false;
+    public Transform spritePrefab;
+    private Rigidbody2D rb2;
+    public Transform crabclone;
 
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpHeight = 5f;
@@ -18,6 +21,7 @@ public class PlayerInput : MonoBehaviour
     private Vector2 direction = Vector2.zero;
 
     private bool facingRight = true;
+    public float dir = 1f;
     private Animator animator;
 
     void Start()
@@ -54,12 +58,22 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
-        Move(direction.x, direction.y);
+        float testdir = direction.x;
+        if (testdir > 0)
+        {
+            dir = 1f;
+        }
+
+        if (testdir < 0)
+        {
+            dir = -1f;
+        }
+        Move(direction.x,direction.y);
         animator.SetFloat("Speed", Mathf.Abs(speed*direction.x)); 
 
     }
 
-    private void Move(float x) // Move on X and Y
+    private void Move(float x, float y) // Move on X and Y
     {
         rb.velocity = new Vector2(x * speed, rb.velocity.y);
     }
@@ -92,13 +106,15 @@ public class PlayerInput : MonoBehaviour
     }
 
 
+<<<<<<< Updated upstream
     //         //animator.SetBool("isJumping", false);
     //     }
     // }
+=======
+>>>>>>> Stashed changes
 
     void OnSpawn()
     {
-
 
         Spawn();
 
