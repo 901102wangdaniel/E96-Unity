@@ -19,6 +19,11 @@ public class PortalGun : MonoBehaviour
 
     void Update()
     {
+        // GameObject validBRight = null; // You need to define what this GameObject is
+        // GameObject validBLeft = null; // Define this GameObject as well
+
+
+
         if (Input.GetMouseButtonDown(0)
             //&& the PORTAL IS IN VALID SPOT
 
@@ -56,35 +61,34 @@ public class PortalGun : MonoBehaviour
             greyPortalPrefab.tag = "grey";
         }
 
-        // if (TouchingBRight == true || TouchingBLeft == true)
+// where we check the right and left
+        // if (validBRight != null && TouchingBRight(validBRight) || validBLeft != null && TouchingBLeft(validBLeft))
         // {
-        //     //glow blue
-
-        //     if(TouchingBRight == true){
-        //         //touching right
-        //         //allow place right portal (rotate portal, make x scale negative)
-
-        //     } else if(TouchingBLeft == true)
+        //     if (TouchingBRight(validBRight))
         //     {
-        //         //touching left
-        //         //allow place left portal
-
+        //         // Touching right
+        //         // Allow place right portal (rotate portal, make x scale negative)
+        //     }
+        //     else if (TouchingBLeft(validBLeft))
+        //     {
+        //         // Touching left
+        //         // Allow place left portal
         //     }
         // }
         
     }
 
-    public bool TouchingBRight(GameObject ValidBRight)
+    public bool TouchingBRight(GameObject validBRight)
     {
         Vector2 cursorPos = cam.ScreenToWorldPoint(Input.mousePosition);
-        return ValidBRight.GetComponent<Collider2D>().OverlapPoint(cursorPos);
+        return validBRight.GetComponent<Collider2D>().OverlapPoint(cursorPos);
     }
     // Debug.Log(TouchingBRight);
 
-    public bool TouchingBLeft(GameObject ValidBLeft)
+    public bool TouchingBLeft(GameObject validBLeft)
     {
         Vector2 cursorPos = cam.ScreenToWorldPoint(Input.mousePosition);
-        return ValidBLeft.GetComponent<Collider2D>().OverlapPoint(cursorPos);
+        return validBLeft.GetComponent<Collider2D>().OverlapPoint(cursorPos);
     }
 }
 
