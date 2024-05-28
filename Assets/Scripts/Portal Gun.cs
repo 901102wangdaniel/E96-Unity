@@ -56,21 +56,21 @@ public class PortalGun : MonoBehaviour
             greyPortalPrefab.tag = "grey";
         }
 
-        if (TouchingBRight == true || TouchingBLeft == true)
-        {
-            //glow blue
+        // if (TouchingBRight == true || TouchingBLeft == true)
+        // {
+        //     //glow blue
 
-            if(TouchingBRight == true){
-                //touching right
-                //allow place right portal (rotate portal, make x scale negative)
+        //     if(TouchingBRight == true){
+        //         //touching right
+        //         //allow place right portal (rotate portal, make x scale negative)
 
-            } else if(TouchingBLeft == true)
-            {
-                //touching left
-                //allow place left portal
+        //     } else if(TouchingBLeft == true)
+        //     {
+        //         //touching left
+        //         //allow place left portal
 
-            }
-        }
+        //     }
+        // }
         
     }
 
