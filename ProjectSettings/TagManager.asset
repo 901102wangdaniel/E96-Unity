@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Teleporter
+  - white
+  - grey
+  - GLeft
+  - GRight
+  - BRight
+  - BLeft
   layers:
   - Default
   - TransparentFX
