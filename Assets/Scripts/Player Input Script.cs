@@ -9,18 +9,13 @@ public class PlayerInput : MonoBehaviour
 
     private Rigidbody2D rb;
     bool isGrounded = false;
-    public Transform spritePrefab;
-    private Rigidbody2D rb2;
-    public Transform crabclone;
 
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpHeight = 5f;
     [SerializeField] public float crabSpeed = 5f;
 
     // private float movement = 0f;
-    private float direction = 0f;
-    [SerializeField] public Vector2 force = new Vector2(100f, 0);
-    public float dir = 1f;
+    private Vector2 direction = Vector2.zero;
 
     private bool facingRight = true;
     private Animator animator;
@@ -28,27 +23,32 @@ public class PlayerInput : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //collect the player's Rigidbody2D
-        // animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     void OnMove(InputValue value)
     {
-        direction = value.Get<float>();
-        Debug.Log(direction);
+        direction = value.Get<Vector2>();
+        // Debug.Log(direction);
 
-
-        // sprite flip
-        if (direction < 0 && facingRight == true)
+    // sprite flip
+        if (direction.x < 0 && facingRight == true)
         {
             Flip();
-
         }
 
-        if (direction > 0 && facingRight == false)
+        if (direction.x > 0 && facingRight == false)
         {
             Flip();
-
         }
+    }
+
+    void Flip(){
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
     }
 
     void Flip()
@@ -63,17 +63,8 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
-        if (direction > 0)
-        {
-            dir = 1f;
-        }
-
-        if (direction < 0)
-        {
-            dir = -1f;
-        }
-        Move(direction);
-        //animator.SetFloat("Speed", Mathf.Abs(speed * direction.x));
+        Move(direction.x, direction.y);
+        animator.SetFloat("Speed", Mathf.Abs(speed*direction.x)); 
 
     }
 
@@ -93,8 +84,8 @@ public class PlayerInput : MonoBehaviour
     private void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-        Debug.Log(rb.velocity);
-        //animator.SetBool("isJumping", true);
+        // Debug.Log(rb.velocity);
+        animator.SetBool("isJumping", true);
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -104,10 +95,11 @@ public class PlayerInput : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        // Check the angle to consider the player grounded
-        if (collision.contacts[0].normal.y > 0.5)
-        {
-            isGrounded = true;
+        isGrounded = true;
+        // Debug.Log("Player is grounded");
+        animator.SetBool("isJumping", false);
+    }
+}
 
             //animator.SetBool("isJumping", false);
         }
