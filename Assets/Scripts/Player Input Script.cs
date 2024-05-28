@@ -41,13 +41,13 @@ public class PlayerInput : MonoBehaviour
         if (direction < 0 && facingRight == true)
         {
             Flip();
-            
+
         }
 
         if (direction > 0 && facingRight == false)
         {
             Flip();
-            
+
         }
     }
 
@@ -79,7 +79,7 @@ public class PlayerInput : MonoBehaviour
 
     private void Move(float x) // Move on X and Y
     {
-        rb.velocity = new Vector2(x*speed,rb.velocity.y);
+        rb.velocity = new Vector2(x * speed, rb.velocity.y);
     }
 
     void OnJump()
@@ -108,7 +108,7 @@ public class PlayerInput : MonoBehaviour
         if (collision.contacts[0].normal.y > 0.5)
         {
             isGrounded = true;
-            
+
             //animator.SetBool("isJumping", false);
         }
     }
@@ -118,15 +118,15 @@ public class PlayerInput : MonoBehaviour
 
 
         Spawn();
-        
-        
+
+
 
     }
 
 
     void Spawn()
     {
-        
+
         if (facingRight == true)
         {
             Vector3 spawnPosition = transform.position + Vector3.right * 1.0f; // Adjust 1.0f to your needs for spacing
@@ -140,13 +140,13 @@ public class PlayerInput : MonoBehaviour
             crabclone = Instantiate(spritePrefab, spawnPosition, Quaternion.identity);
         }
 
-        
+
 
         rb2 = crabclone.GetComponent<Rigidbody2D>();
-        rb2.velocity = new Vector2(dir*crabSpeed, rb2.velocity.y);
+        rb2.velocity = new Vector2(dir * crabSpeed, rb2.velocity.y);
 
 
-        //rb2.AddForce(force);
+
         Debug.Log(rb2.velocity);
 
 
