@@ -106,12 +106,7 @@ public class PlayerInput : MonoBehaviour
     }
 
 
-<<<<<<< Updated upstream
-    //         //animator.SetBool("isJumping", false);
-    //     }
-    // }
-=======
->>>>>>> Stashed changes
+
 
     void OnSpawn()
     {
