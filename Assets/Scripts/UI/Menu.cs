@@ -35,7 +35,7 @@ public class Menu : MonoBehaviour
         // Set the volume of the audio manager
         if (audioManager != null)
         {
-            audioManager.SetVolume(volume);
+            // audioManager.SetVolume(volume);
         }
     }
 }
