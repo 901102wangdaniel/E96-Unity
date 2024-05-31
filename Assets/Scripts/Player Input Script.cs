@@ -107,8 +107,6 @@ public class PlayerInput : MonoBehaviour
     }
 
 
-
-
     void OnSpawn()
     {
 

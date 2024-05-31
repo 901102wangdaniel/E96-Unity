@@ -16,7 +16,7 @@ public class AudioController : MonoBehaviour
     private void PlayBackgroundMusic()
     {
         // Load the background music audio clip from resources
-        AudioClip bgmClip = Resources.Load<AudioClip>("BackgroundMusic");
+        AudioClip bgmClip = Resources.Load<AudioClip>("Underwater World");
 
         // Check if the audio clip is loaded successfully
         if (bgmClip != null)
@@ -34,8 +34,19 @@ public class AudioController : MonoBehaviour
     }
 
     // Method to set the volume of the background music
+    
     public void SetVolume(float volume)
     {
-        bgmSource.volume = volume;
+        // Mute audio if volume is set to 0
+        if (volume == 0)
+        {
+            bgmSource.mute = true;
+        }
+        else
+        {
+            bgmSource.mute = false;
+            bgmSource.volume = volume;
+        }
     }
+
 }
