@@ -33,7 +33,7 @@ public class PlayerInput : MonoBehaviour
     void OnMove(InputValue value)
     {
         direction = value.Get<float>();
-        // Debug.Log(direction);
+        Debug.Log(direction);
 
     // sprite flip
         if (direction < 0 && facingRight == true)
@@ -70,7 +70,7 @@ public class PlayerInput : MonoBehaviour
         }
         Move(direction);
         //animator.SetFloat("Speed", Mathf.Abs(speed*direction.x));
-        Debug.Log(rb.velocity);
+        Debug.Log(direction);
 
     }
 
@@ -122,14 +122,14 @@ public class PlayerInput : MonoBehaviour
 
         if (facingRight == true)
         {
-            Vector3 spawnPosition = transform.position + Vector3.right * 1.0f; // Adjust 1.0f to your needs for spacing
-            spawnPosition.y -= 0.25f;
+            Vector3 spawnPosition = transform.position + Vector3.right * 0.5f; // Adjust 1.0f to your needs for spacing
+            spawnPosition.y -= 0.15f;
             crabclone = Instantiate(spritePrefab, spawnPosition, Quaternion.identity);
         }
         if (facingRight == false)
         {
-            Vector3 spawnPosition = transform.position + Vector3.left * 1.0f;
-            spawnPosition.y -= 0.25f;
+            Vector3 spawnPosition = transform.position + Vector3.left * 0.5f;
+            spawnPosition.y -= 0.15f;
             crabclone = Instantiate(spritePrefab, spawnPosition, Quaternion.identity);
         }
 
