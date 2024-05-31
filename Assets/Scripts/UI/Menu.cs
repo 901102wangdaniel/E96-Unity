@@ -6,8 +6,9 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    [SerializeField] public string SceneName;
     public Slider volumeSlider; // Reference to the volume slider in the options panel
-    public AudioManager audioManager; // Reference to the AudioManager script
+    public AudioController audioManager; // Reference to the AudioController script
 
     void Start()
     {
@@ -15,9 +16,9 @@ public class Menu : MonoBehaviour
         volumeSlider.value = PlayerPrefs.GetFloat("VolumeLevel", 0.5f);
     }
 
-    public void PlayGame()
+    public void PlayGame(string SceneName)
     {
-        SceneManager.LoadSceneAsync(1); 
+        SceneManager.LoadScene(SceneName); 
     }
 
     public void QuitGame() 
