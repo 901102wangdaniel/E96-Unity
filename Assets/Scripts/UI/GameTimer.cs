@@ -7,8 +7,8 @@ namespace MyGameNamespace
     public class GameTimer : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI timerText;
-        public GameObject gameOverScreenPrefab;
-        private float remainingTime = 120f;
+        //public GameObject gameOverScreenPrefab;
+        private float remainingTime = 10f;
         private bool timerRunning;
 
         private Color defaultTextColor;
@@ -41,22 +41,27 @@ namespace MyGameNamespace
         {
             remainingTime = 120f;
             timerRunning = false;
-            if (timerText != null)
-            {
-                timerText.color = defaultTextColor;
-                UpdateTimerDisplay();
-            }
-            else Debug.LogError("TimerText is not assigned in the GameTimer script!");
+            timerText.color = defaultTextColor;
+            UpdateTimerDisplay();
+            // if (timerText != null)
+            // {
+                
+            // }
+            //else Debug.LogError("TimerText is not assigned in the GameTimer script!");
         }
 
         private void OnDestroy() => StopTimer();
 
         private void GameOver()
         {
-            if (gameOverScreenPrefab != null)
-                Instantiate(gameOverScreenPrefab, Vector3.zero, Quaternion.identity);
-            else Debug.LogError("GameOverScreenPrefab reference is null! Game over screen prefab could not be instantiated.");
-            StopTimer();
+            if (remainingTime == 0)
+            {
+                SceneManager.LoadScene("Game Over"); 
+                StopTimer();
+            }
+            //     Instantiate(gameOverScreenPrefab, Vector3.zero, Quaternion.identity);
+            // else Debug.LogError("GameOverScreenPrefab reference is null! Game over screen prefab could not be instantiated.");
+            // StopTimer();
         }
 
         private void UpdateTimerDisplay()
