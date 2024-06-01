@@ -36,7 +36,7 @@ public class Collide : MonoBehaviour
             Thread.Sleep(100);
             Destroy(this.gameObject);
         }
-        else if (collision.gameObject.name == "Wall") 
+        else if (collision.gameObject.name == "Ground") 
         {
             
             rb.velocity = new Vector2(-1*vel, rb.velocity.y);

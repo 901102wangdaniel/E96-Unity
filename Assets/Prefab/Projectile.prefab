@@ -158,8 +158,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3186735478042705883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fff420ffadda48fbafc8d965a52c69f, type: 3}
+  m_Script: {fileID: 11500000, guid: 086a91a195570431ba52b21f3dfe86e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 6089348481821811862, guid: ad0beb4a46c574f8fadfbfde8056f492, type: 3}
+  explosionPrefab: {fileID: 6089348481821811862, guid: f05ebe89b10c14bafb81024943097601, type: 3}
   speed: 10

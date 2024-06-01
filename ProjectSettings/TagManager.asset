@@ -12,6 +12,8 @@ TagManager:
   - BRight
   - BLeft
   - Ground
+  - Crab
+  - Breakable
   layers:
   - Default
   - TransparentFX

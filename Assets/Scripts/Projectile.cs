@@ -28,21 +28,24 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Instantiate the explosion effect at the collision point
-        GameObject explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
-
-        // Optional: Stop emitting particles after a short delay
-        ParticleSystem ps = explosion.GetComponent<ParticleSystem>();
-        if (ps != null)
+        if (collision.gameObject.CompareTag("Breakable"))
         {
-            // Destroy the explosion object after the particles finish
-            Destroy(explosion, ps.main.duration + ps.main.startLifetime.constantMax);
+            // Instantiate the explosion effect at the collision point
+            GameObject explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
+
+            // Optional: Stop emitting particles after a short delay
+            ParticleSystem ps = explosion.GetComponent<ParticleSystem>();
+            if (ps != null)
+            {
+                // Destroy the explosion object after the particles finish
+                Destroy(explosion, ps.main.duration + ps.main.startLifetime.constantMax);
+            }
+
+            // Destroy the wall on collision
+            Destroy(collision.gameObject);
+
+            // Destroy the projectile
+            Destroy(gameObject);
         }
-
-        // Destroy the wall on collision
-        Destroy(collision.gameObject);
-
-        // Destroy the projectile
-        Destroy(gameObject);
     }
 }

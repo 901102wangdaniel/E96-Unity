@@ -18,7 +18,7 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] public float crabSpeed = 5f;
 
     // private float movement = 0f;
-    private Vector2 direction = Vector2.zero;
+    private float direction = 0f;
 
     private bool facingRight = true;
     public float dir = 1f;
@@ -32,16 +32,16 @@ public class PlayerInput : MonoBehaviour
 
     void OnMove(InputValue value)
     {
-        direction = value.Get<Vector2>();
-        // Debug.Log(direction);
+        direction = value.Get<float>();
+        Debug.Log(direction);
 
     // sprite flip
-        if (direction.x < 0 && facingRight == true)
+        if (direction < 0 && facingRight == true)
         {
             Flip();
         }
 
-        if (direction.x > 0 && facingRight == false)
+        if (direction > 0 && facingRight == false)
         {
             Flip();
         }
@@ -58,22 +58,23 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
-        float testdir = direction.x;
-        if (testdir > 0)
+        
+        if (direction > 0)
         {
             dir = 1f;
         }
 
-        if (testdir < 0)
+        if (direction < 0)
         {
             dir = -1f;
         }
-        Move(direction.x,direction.y);
-        animator.SetFloat("Speed", Mathf.Abs(speed*direction.x)); 
+        Move(direction);
+        //animator.SetFloat("Speed", Mathf.Abs(speed*direction.x));
+        Debug.Log(direction);
 
     }
 
-    private void Move(float x, float y) // Move on X and Y
+    private void Move(float x) // Move on X and Y
     {
         rb.velocity = new Vector2(x * speed, rb.velocity.y);
     }
@@ -121,14 +122,14 @@ public class PlayerInput : MonoBehaviour
 
         if (facingRight == true)
         {
-            Vector3 spawnPosition = transform.position + Vector3.right * 1.0f; // Adjust 1.0f to your needs for spacing
-            spawnPosition.y -= 0.25f;
+            Vector3 spawnPosition = transform.position + Vector3.right * 0.5f; // Adjust 1.0f to your needs for spacing
+            spawnPosition.y -= 0.15f;
             crabclone = Instantiate(spritePrefab, spawnPosition, Quaternion.identity);
         }
         if (facingRight == false)
         {
-            Vector3 spawnPosition = transform.position + Vector3.left * 1.0f;
-            spawnPosition.y -= 0.25f;
+            Vector3 spawnPosition = transform.position + Vector3.left * 0.5f;
+            spawnPosition.y -= 0.15f;
             crabclone = Instantiate(spritePrefab, spawnPosition, Quaternion.identity);
         }
 
