@@ -8,7 +8,7 @@ namespace MyGameNamespace
     {
         [SerializeField] private TextMeshProUGUI timerText;
         //public GameObject gameOverScreenPrefab;
-        private float remainingTime = 10f;
+        private float remainingTime = 120f;
         private bool timerRunning;
 
         private Color defaultTextColor;
