@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 88541950}
   - component: {fileID: 88541952}
   - component: {fileID: 88541951}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 268775625}
   - component: {fileID: 268775627}
   - component: {fileID: 268775626}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   - component: {fileID: 490676277}
   - component: {fileID: 490676276}
   - component: {fileID: 490676275}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Cancel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -809,7 +809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597604418}
   - component: {fileID: 597604419}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: 'Options Panel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -831,8 +831,8 @@ RectTransform:
   - {fileID: 268775625}
   - {fileID: 1952430299}
   - {fileID: 1622278697}
-  - {fileID: 1000044705}
   - {fileID: 490676274}
+  - {fileID: 1000044705}
   m_Father: {fileID: 1362086190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -966,7 +966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841950055}
   - component: {fileID: 841950056}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -167, y: -119.3}
+  m_AnchoredPosition: {x: 0, y: 5}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841950056
@@ -1057,7 +1057,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!1 &867370500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,7 +1622,7 @@ GameObject:
   - component: {fileID: 1000044705}
   - component: {fileID: 1000044707}
   - component: {fileID: 1000044706}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 480.00006, y: 289.20004}
+  m_AnchoredPosition: {x: 0.000024796, y: -116.29998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000044706
@@ -1769,7 +1769,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -2075,7 +2075,7 @@ GameObject:
   - component: {fileID: 1370959518}
   - component: {fileID: 1370959520}
   - component: {fileID: 1370959519}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: 'X '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2187,7 +2187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1606204840}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2225,7 +2225,7 @@ GameObject:
   - component: {fileID: 1622278697}
   - component: {fileID: 1622278699}
   - component: {fileID: 1622278698}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Volume Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2359,7 +2359,7 @@ GameObject:
   - component: {fileID: 1645302864}
   - component: {fileID: 1645302866}
   - component: {fileID: 1645302865}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3135,7 +3135,7 @@ GameObject:
   - component: {fileID: 1952430299}
   - component: {fileID: 1952430301}
   - component: {fileID: 1952430300}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3269,7 +3269,7 @@ GameObject:
   - component: {fileID: 2122250340}
   - component: {fileID: 2122250342}
   - component: {fileID: 2122250341}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3342,7 +3342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2135287167}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
