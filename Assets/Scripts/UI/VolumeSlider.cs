@@ -6,6 +6,12 @@ public class VolumeSlider : MonoBehaviour
     public Slider volumeSlider; // Reference to the volume slider UI element
     public AudioController audioController; // Reference to the AudioController script
 
+    void Awake()
+    {
+        // Ensure the GameObject containing the VolumeSlider script is active
+        gameObject.SetActive(true);
+    }
+
     // Method called when the slider value changes
     public void OnVolumeChanged()
     {
@@ -19,3 +25,4 @@ public class VolumeSlider : MonoBehaviour
         }
     }
 }
+

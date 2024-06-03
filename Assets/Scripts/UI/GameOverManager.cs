@@ -30,6 +30,8 @@ public class GameOverManager : MonoBehaviour
 
     public void RestartGame()
     {
+        Debug.Log("Restarting game..."); // Add debug log
+
         // Reset the timer
         if (gameTimer != null)
             gameTimer.ResetTimer();
