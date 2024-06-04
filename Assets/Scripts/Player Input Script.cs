@@ -159,7 +159,7 @@ public class PlayerInput : MonoBehaviour
 
     private void CheckKeys()
     {
-        if (keyCount >= 6)  // Replace X with the number of keys needed
+        if (keyCount >= 4)  // Replace X with the number of keys needed
         {
             // Do something special
             Debug.Log("Collected all required keys!");
