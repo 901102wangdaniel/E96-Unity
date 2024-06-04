@@ -24,6 +24,8 @@ public class PlayerInput : MonoBehaviour
     public float dir = 1f;
     private Animator animator;
 
+    private int keyCount = 0;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); //collect the player's Rigidbody2D
@@ -33,7 +35,7 @@ public class PlayerInput : MonoBehaviour
     void OnMove(InputValue value)
     {
         direction = value.Get<float>();
-        Debug.Log(direction);
+        // Debug.Log(direction);
 
     // sprite flip
         if (direction < 0 && facingRight == true)
@@ -70,7 +72,7 @@ public class PlayerInput : MonoBehaviour
         }
         Move(direction);
         //animator.SetFloat("Speed", Mathf.Abs(speed*direction.x));
-        Debug.Log(direction);
+        // Debug.Log(direction);
 
     }
 
@@ -111,9 +113,6 @@ public class PlayerInput : MonoBehaviour
     {
 
         Spawn();
-
-
-
     }
 
 
@@ -143,6 +142,28 @@ public class PlayerInput : MonoBehaviour
         Debug.Log(rb2.velocity);
 
 
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("key"))
+        {
+            keyCount++;  // Increase the key count
+            Destroy(other.gameObject);  // Destroy the key GameObject
+            Debug.Log("grabbed key!");
+
+            CheckKeys();  // Call a method to check if something should happen
+        }
+    }
+
+    private void CheckKeys()
+    {
+        if (keyCount >= 6)  // Replace X with the number of keys needed
+        {
+            // Do something special
+            Debug.Log("Collected all required keys!");
+        }
     }
 
 }

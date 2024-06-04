@@ -14,6 +14,7 @@ TagManager:
   - Ground
   - Crab
   - Breakable
+  - key
   layers:
   - Default
   - TransparentFX
