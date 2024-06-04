@@ -71,7 +71,7 @@ public class PlayerInput : MonoBehaviour
             dir = -1f;
         }
         Move(direction);
-        //animator.SetFloat("Speed", Mathf.Abs(speed*direction.x));
+        animator.SetFloat("Speed", Mathf.Abs(speed*direction));
         // Debug.Log(direction);
 
     }
@@ -91,8 +91,11 @@ public class PlayerInput : MonoBehaviour
 
     private void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-        // Debug.Log(rb.velocity);
+        // rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+        // // Debug.Log(rb.velocity);
+        // animator.SetBool("isJumping", true);
+        Vector2 jumpAdder = new Vector2(rb.velocity.x, jumpHeight);
+        rb.AddForce(jumpAdder, ForceMode2D.Impulse);
         animator.SetBool("isJumping", true);
     }
 
@@ -101,7 +104,7 @@ public class PlayerInput : MonoBehaviour
         isGrounded = false;
     }
 
-    void OnCollisionStay2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         isGrounded = true;
         // Debug.Log("Player is grounded");
