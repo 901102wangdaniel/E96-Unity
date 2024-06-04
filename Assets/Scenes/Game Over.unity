@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6737243153178658507, guid: 3240e36b4ad7f41d3b8f14a7979a0d67, type: 3}
+      - m_Target: {fileID: 624323493}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
         m_MethodName: RestartGame
         m_Mode: 1
@@ -632,6 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 861353820047331885, guid: 3240e36b4ad7f41d3b8f14a7979a0d67, type: 3}
+  MapScene: MapScene
 --- !u!114 &624323494
 MonoBehaviour:
   m_ObjectHideFlags: 0

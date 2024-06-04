@@ -5,6 +5,7 @@ using MyGameNamespace;
 public class GameOverManager : MonoBehaviour
 {
     public GameObject gameOverScreen;
+    public string MapScene; // Name of the scene to restart to
     private GameTimer gameTimer; // Reference to the GameTimer script
 
     void Start()
@@ -36,8 +37,8 @@ public class GameOverManager : MonoBehaviour
         if (gameTimer != null)
             gameTimer.ResetTimer();
 
-        // Reload the current scene to restart the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // Reload the specified scene to restart the game
+        SceneManager.LoadScene(MapScene);
     }
 
     public void QuitGame()
