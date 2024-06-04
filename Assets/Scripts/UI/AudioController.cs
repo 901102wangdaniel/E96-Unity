@@ -16,11 +16,11 @@ public class AudioController : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject); // Make this object persistent across scenes
         }
-        else if (instance != this)
-        {
-            // If an instance already exists, destroy this one
-            Destroy(gameObject);
-        }
+        // else if (instance != this)
+        // {
+        //     // If an instance already exists, destroy this one
+        //     Destroy(gameObject);
+        // }
     }
 
     void Start()

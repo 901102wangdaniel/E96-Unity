@@ -26,16 +26,6 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName); 
     }
-
-    public void QuitGame() 
-    {
-        Application.Quit();
-        
-        #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-        #endif
-    }
-
     // Method to adjust the volume of the background music
     public void SetVolume(float volume)
     {
@@ -47,5 +37,15 @@ public class Menu : MonoBehaviour
             AudioController.instance.SetVolume(volume);
         }
     }
+
+    public void QuitGame() 
+    {
+        Application.Quit();
+        
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+    }
+
 }
 
